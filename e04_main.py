@@ -15,11 +15,11 @@ def fun2(m):
 # Step 1: (when done, comment out until "Step1-END")
 # --------------------------------------------------
 # Calling from General Context:
-num = 5
-num = fun1(num)
-print("fun1 returned",num)
-num = fun2(num)
-print("fun2 returned",num)
+#num = 5
+#num = fun1(num)
+#print("fun1 returned",num)
+#num = fun2(num)
+#print("fun2 returned",num)
 # Step1-END ----------------------------------------
 
 
@@ -27,14 +27,14 @@ print("fun2 returned",num)
 # Step 2: (select and uncomment until "step2-END")
 # --------------------------------------------------
 # # Calling a main function
-# def main():
-#   num = 5
-#   num = fun1(num)
-#   num = fun2(num)
-#   print ("the final number is:",num)
+def main():
+  num = 5
+  num = fun1(num)
+  num = fun2(num)
+  print ("the final number is:",num)
 
 # # still always calling main from the general context
-# main()
+main()
 # Step2-END ----------------------------------------
 
 # Step 3: (full fix after the next exercise)
