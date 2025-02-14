@@ -21,13 +21,13 @@ def fun2():
 #  1. Comment out fun2()
 #  2. Uncomment out fun2_corrected() until Step1-END
 #  3. Uncomment the call to fun2_corrected() at the end
-# def fun2_corrected():
-#     global a, b # tells python we''ll use the GLOBALS
-#     print (a,b)
-#     b = 123     # this is modifying the GLOBAL variable b
-#     print(b)
+def fun2_corrected():
+     global a, b # tells python we''ll use the GLOBALS
+     print (a,b)
+     b = 123     # this is modifying the GLOBAL variable b
+     print(b)
 # Step1-END ----------------------------------------
 
 fun1()
-fun2()
-# fun2_corrected()
+#fun2()
+fun2_corrected()
